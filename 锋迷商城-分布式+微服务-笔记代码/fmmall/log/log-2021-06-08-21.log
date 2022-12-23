@@ -1,0 +1,2 @@
+2021-06-08-21:01:03.427 INFO [lettuce-eventExecutorLoop-1-2]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /47.96.11.185:7001
+2021-06-08-21:01:03.527 INFO [lettuce-nioEventLoop-7-2]-io.lettuce.core.protocol.ReconnectionHandler:164>>Reconnected to 47.96.11.185:7001

@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/qfytao/fmmall-config.git
+          search-paths: files
+          username: 366274379@qq.com
+          password: admin123
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zhangsan:123456@localhost:8761/eureka

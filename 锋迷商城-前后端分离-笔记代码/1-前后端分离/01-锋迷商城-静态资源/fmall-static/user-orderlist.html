@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="static/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="static/css/amazeui.css" rel="stylesheet" type="text/css">
+		<link href="static/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="static/css/systyle.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<div class="m-order" style="margin-bottom: 0px;">
+				<div class="s-bar"><i class="s-icon"></i>我的订单
+					<a href="/order.html" class="i-load-more-item-shadow">全部订单</a>
+				</div>
+				<ul>
+					<li style="width: 25%;">
+						<a href="/order.html"><i><img src="static/images/pay.png"></i> <span>待付款<em class="m-num" style="display: none;">0</em></span></a>
+					</li>
+					<li style="width: 25%;">
+						<a href="/order.html"><i><img src="static/images/send.png"></i> <span>待发货<em class="m-num" style="display: none;">0</em></span></a>
+					</li>
+					<li style="width: 25%;">
+						<a href="/order.html"><i><img src="static/images/receive.png"></i> <span>待收货<em class="m-num" style="display: none;">0</em></span></a>
+					</li>
+					<li style="width: 25%;">
+						<a href="/order.html"><i><img src="static/images/comment.png"></i> <span>待评价<em class="m-num" style="display: none;">0</em></span></a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="box-container-bottom" style="margin-bottom: 15px;"></div>
+			
+			<div class="m-logistics">
+				<div class="s-bar"><i class="s-icon"></i>订单动向
+				</div>
+				<div class="s-content">
+					<ul class="lg-list"></ul>
+					<div id="wrap" class="wrap">
+						<nav class="zpagenav">
+							<ul class="page-ul">
+								<li class="disabled">&lt;</li>
+								<li class="active">1</li>
+								<li class="disabled">&gt;</li>
+							</ul><span class="total">共 1 条</span></nav>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

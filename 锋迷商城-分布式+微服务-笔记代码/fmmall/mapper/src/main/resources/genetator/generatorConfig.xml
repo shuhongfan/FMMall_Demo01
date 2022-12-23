@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 引入数据库连接配置 -->
+    <!--    <properties resource="jdbc.properties"/>-->
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+
+        <!-- 配置 GeneralDAO -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.qfedu.fmmall.general.GeneralDAO"/>
+        </plugin>
+
+        <!-- 配置数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/fmmall2"
+                        userId="root" password="admin123">
+        </jdbcConnection>
+
+        <!-- 配置实体类存放路径 -->
+        <javaModelGenerator targetPackage="com.qfedu.fmmall.entity" targetProject="src/main/java"/>
+
+        <!-- 配置 XML 存放路径 -->
+        <sqlMapGenerator targetPackage="/" targetProject="src/main/resources/mappers"/>
+
+        <!-- 配置 DAO 存放路径 -->
+        <javaClientGenerator targetPackage="com.qfedu.fmmall.dao" targetProject="src/main/java" type="XMLMAPPER"/>
+
+        <!-- 配置需要指定生成的数据库和表，% 代表所有表 -->
+        <table tableName="shopping_cart"></table>
+    </context>
+</generatorConfiguration>

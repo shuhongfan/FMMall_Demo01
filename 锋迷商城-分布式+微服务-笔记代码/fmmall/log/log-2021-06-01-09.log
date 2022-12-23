@@ -1,0 +1,83 @@
+2021-06-01-09:50:55.499 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0 on LAPTOP-O3K4MK34 with PID 22372 (E:\Java2010\workspace\part4\fmmall\api\target\classes started by THEO in E:\Java2010\workspace\part4\fmmall)
+2021-06-01-09:50:55.503 INFO [main]-org.springframework.boot.SpringApplication:662>>No active profile set, falling back to default profiles: default
+2021-06-01-09:50:57.046 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:250>>Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-01-09:50:57.049 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:128>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-06-01-09:50:57.092 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:188>>Finished Spring Data repository scanning in 37 ms. Found 0 Elasticsearch repository interfaces.
+2021-06-01-09:50:57.096 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:250>>Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-01-09:50:57.097 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:128>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-06-01-09:50:57.111 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:188>>Finished Spring Data repository scanning in 14 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-06-01-09:50:57.130 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:250>>Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-01-09:50:57.132 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:128>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-01-09:50:57.159 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:188>>Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-06-01-09:50:57.347 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.qfedu.fmmall]' package. Please check your configuration.
+2021-06-01-09:50:58.198 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2021-06-01-09:50:58.223 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2021-06-01-09:50:58.224 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2021-06-01-09:50:58.224 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-06-01-09:50:58.436 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2021-06-01-09:50:58.437 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:289>>Root WebApplicationContext: initialization completed in 2852 ms
+2021-06-01-09:50:59.506 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2021-06-01-09:50:59.651 INFO [main]-com.alibaba.druid.pool.DruidDataSource:994>>{dataSource-1} inited
+2021-06-01-09:51:01.173 INFO [main]-org.redisson.Version:41>>Redisson 3.12.0
+2021-06-01-09:51:03.327 INFO [redisson-netty-4-13]-org.redisson.connection.pool.ConnectionPool$1:168>>24 connections initialized for 47.96.11.185/47.96.11.185:7001
+2021-06-01-09:51:03.326 INFO [redisson-netty-4-7]-org.redisson.connection.pool.ConnectionPool$1:168>>1 connections initialized for 47.96.11.185/47.96.11.185:7001
+2021-06-01-09:51:04.007 INFO [main]-springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-01-09:51:04.138 INFO [main]-org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181>>Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-01-09:51:04.336 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-06-01-09:51:04.337 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-06-01-09:51:04.338 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-06-01-09:51:04.338 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2021-06-01-09:51:04.405 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.405 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.406 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.406 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.406 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.406 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.406 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.407 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.407 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.407 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.407 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.408 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.408 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.408 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.408 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.409 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.409 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.409 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.409 WARN [main]-org.springframework.data.convert.CustomConversions:270>>Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.409 WARN [main]-org.springframework.data.convert.CustomConversions:260>>Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2021-06-01-09:51:04.720 INFO [main]-org.springframework.data.elasticsearch.support.VersionInfo:62>>Version Spring Data Elasticsearch: 4.1.6
+2021-06-01-09:51:04.720 INFO [main]-org.springframework.data.elasticsearch.support.VersionInfo:63>>Version Elasticsearch Client in build: 7.9.3
+2021-06-01-09:51:04.720 INFO [main]-org.springframework.data.elasticsearch.support.VersionInfo:64>>Version Elasticsearch Client used: 7.9.3
+2021-06-01-09:51:04.720 INFO [main]-org.springframework.data.elasticsearch.support.VersionInfo:72>>Version Elasticsearch cluster: 7.6.1
+2021-06-01-09:51:04.721 WARN [main]-org.springframework.data.elasticsearch.support.VersionInfo:75>>Version mismatch in between Elasticsearch Client and Cluster: 7.9.3 - 7.6.1
+2021-06-01-09:51:04.918 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2021-06-01-09:51:04.934 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-06-01-09:51:04.934 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2021-06-01-09:51:04.935 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2021-06-01-09:51:04.935 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-06-01-09:51:04.935 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-06-01-09:51:04.936 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2021-06-01-09:51:04.936 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3fb0d9de
+2021-06-01-09:51:04.945 INFO [main]-org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181>>Initializing ExecutorService 'taskScheduler'
+2021-06-01-09:51:05.022 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2021-06-01-09:51:05.045 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-01-09:51:05.046 INFO [main]-springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2021-06-01-09:51:05.065 INFO [main]-springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2021-06-01-09:51:05.102 INFO [main]-springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2021-06-01-09:51:05.385 INFO [main]-springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: listUsingGET_1
+2021-06-01-09:51:05.413 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:727>>Starting Quartz Scheduler now
+2021-06-01-09:51:05.414 INFO [main]-org.quartz.core.QuartzScheduler:547>>Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-06-01-09:51:05.436 INFO [main]-org.springframework.boot.StartupInfoLogger:61>>Started ApiApplication in 10.789 seconds (JVM running for 12.466)
+2021-06-01-09:53:22.371 INFO [http-nio-8080-exec-4]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-01-09:53:22.372 INFO [http-nio-8080-exec-4]-org.springframework.web.servlet.FrameworkServlet:525>>Initializing Servlet 'dispatcherServlet'
+2021-06-01-09:53:22.374 INFO [http-nio-8080-exec-4]-org.springframework.web.servlet.FrameworkServlet:547>>Completed initialization in 2 ms
+2021-06-01-09:55:45.590 INFO [http-nio-8080-exec-10]-com.qfedu.fmmall.controller.UserController:39>>eyJhbGciOiJIUzI1NiJ9.eyJrZXkxIjoidmFsdWUxIiwia2V5MiI6InZhbHVlMiIsImV4cCI6MTYyMjU5ODk0NX0.Rxn30WEd7Y9R2Fe13oUkPGaLllFnt5r1T1Gj3QLqqXY

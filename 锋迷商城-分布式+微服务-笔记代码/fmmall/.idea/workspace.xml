@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62757e8d-6895-46b1-99a8-25359f379e33" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mapper" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="logback-spring" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\apache-maven-3.6.3\localRepo" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r6inCJtGVmverxf2OIpibz5Ufp" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qfedu.fmmall.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qfedu.fmmall" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qfedu.order.dao" />
+      <recent name="com.qfedu.fmmall.beans" />
+      <recent name="com.qfedu.fmmall.entity" />
+      <recent name="com.qfedu.fmmall.dao" />
+      <recent name="com.qfedu.fmmall.service.job" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java2010\workspace\part4\fmmall\common\src\main\java\com\qfedu\fmmall\beans" />
+      <recent name="E:\Java2010\workspace\part4\fmmall\stock-query\src\main\resources\mappers" />
+      <recent name="E:\Java2010\workspace\part4\fmmall\common\src\main\java\com\qfedu\fmmall\entity" />
+      <recent name="E:\Java2010\workspace\part4\fmmall\common\src\main\java\com\qfedu\fmmall\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderQuerybyidApplication">
+    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.test.MyFrame" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.service.impl.Testmain" />
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportProductInfoIntoES.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ImportProductInfoIntoES" />
+      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportProductInfoIntoES.testImportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ImportProductInfoIntoES" />
+      <option name="METHOD_NAME" value="testImportData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.fmmall.ApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiOrderSubmitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-order-submit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.api.ApiOrderSubmitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiUserLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="api-user-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.api.ApiUserLoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiUserRegistApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-user-regist" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.api.ApiUserRegistApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.eureka.server.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderAddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-add" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderAddApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderCloseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-close" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderCloseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderQuerybyidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-querybyid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderQuerybyidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderStatusUpdateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-status-update" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderStatusUpdateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTimeoutCancleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-timeout-cancle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderTimeoutCancleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTimeoutQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-timeout-query" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.order.OrderTimeoutQueryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderitemAddApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="orderitem-add" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.orderitem.OrderitemAddApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderitemQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="orderitem-query" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.orderitem.OrderitemQueryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSkuQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-sku-query" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.product.sku.ProductSkuQueryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopcartDelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopcart-del" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.shopcart.ShopcartDelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockQueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock-query" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.stock.StockQueryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockUpdateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stock-update" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.stock.StockUpdateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCheckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-check" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.user.UserCheckApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserSaveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-save" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.user.UserSaveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.zipkin.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Testmain" />
+      <item itemvalue="Application.MyFrame" />
+      <item itemvalue="JUnit.ImportProductInfoIntoES.testCreateIndex" />
+      <item itemvalue="JUnit.ImportProductInfoIntoES.testImportData" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ApiUserLoginApplication" />
+      <item itemvalue="Spring Boot.UserCheckApplication" />
+      <item itemvalue="Spring Boot.ApiUserRegistApplication" />
+      <item itemvalue="Spring Boot.UserSaveApplication" />
+      <item itemvalue="Spring Boot.StockQueryApplication" />
+      <item itemvalue="Spring Boot.OrderitemAddApplication" />
+      <item itemvalue="Spring Boot.StockUpdateApplication" />
+      <item itemvalue="Spring Boot.ShopcartDelApplication" />
+      <item itemvalue="Spring Boot.ApiOrderSubmitApplication" />
+      <item itemvalue="Spring Boot.OrderAddApplication" />
+      <item itemvalue="Spring Boot.OrderTimeoutQueryApplication" />
+      <item itemvalue="Spring Boot.OrderStatusUpdateApplication" />
+      <item itemvalue="Spring Boot.OrderCloseApplication" />
+      <item itemvalue="Spring Boot.OrderTimeoutCancleApplication" />
+      <item itemvalue="Spring Boot.OrderitemQueryApplication" />
+      <item itemvalue="Spring Boot.ProductSkuQueryApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.OrderQuerybyidApplication" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="Application.MyFrame" />
+        <item itemvalue="JUnit.ImportProductInfoIntoES.testImportData" />
+        <item itemvalue="Application.Testmain" />
+        <item itemvalue="JUnit.ImportProductInfoIntoES.testCreateIndex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.23565574" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@95694c61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@95694c61" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@faa8a0be" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62757e8d-6895-46b1-99a8-25359f379e33" name="Default Changelist" comment="" />
+      <created>1618303104362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618303104362</updated>
+      <workItem from="1618303108760" duration="2904000" />
+      <workItem from="1618326178021" duration="1807000" />
+      <workItem from="1618363321589" duration="11134000" />
+      <workItem from="1618448963678" duration="15454000" />
+      <workItem from="1618535285847" duration="11226000" />
+      <workItem from="1618798558793" duration="7191000" />
+      <workItem from="1619109678837" duration="755000" />
+      <workItem from="1619140287828" duration="14402000" />
+      <workItem from="1619286575531" duration="646000" />
+      <workItem from="1619312775715" duration="12056000" />
+      <workItem from="1619399284111" duration="8274000" />
+      <workItem from="1619449862149" duration="712000" />
+      <workItem from="1619485822026" duration="6951000" />
+      <workItem from="1619573421760" duration="10834000" />
+      <workItem from="1619657908251" duration="8659000" />
+      <workItem from="1619717966397" duration="1402000" />
+      <workItem from="1619722012059" duration="3000" />
+      <workItem from="1619744645727" duration="12125000" />
+      <workItem from="1620263303499" duration="18819000" />
+      <workItem from="1620349724010" duration="13548000" />
+      <workItem from="1620435262884" duration="13568000" />
+      <workItem from="1620462867441" duration="2492000" />
+      <workItem from="1620577444047" duration="1226000" />
+      <workItem from="1620608680752" duration="13194000" />
+      <workItem from="1620695817384" duration="1532000" />
+      <workItem from="1620698892933" duration="8011000" />
+      <workItem from="1620781727415" duration="2237000" />
+      <workItem from="1620898816396" duration="1134000" />
+      <workItem from="1620954700250" duration="7433000" />
+      <workItem from="1621180109767" duration="828000" />
+      <workItem from="1621309089624" duration="640000" />
+      <workItem from="1621325696527" duration="4479000" />
+      <workItem from="1621360767230" duration="1269000" />
+      <workItem from="1621388700675" duration="8603000" />
+      <workItem from="1621487874135" duration="6438000" />
+      <workItem from="1621563220475" duration="11623000" />
+      <workItem from="1621646570919" duration="9388000" />
+      <workItem from="1621779420814" duration="3387000" />
+      <workItem from="1621820743889" duration="2007000" />
+      <workItem from="1621905276967" duration="3044000" />
+      <workItem from="1621993336685" duration="8977000" />
+      <workItem from="1622085796920" duration="79000" />
+      <workItem from="1622117428434" duration="1999000" />
+      <workItem from="1622449579748" duration="3627000" />
+      <workItem from="1622512190791" duration="22640000" />
+      <workItem from="1622596856774" duration="26273000" />
+      <workItem from="1622654144175" duration="206000" />
+      <workItem from="1622664502962" duration="6000" />
+      <workItem from="1622681525353" duration="4188000" />
+      <workItem from="1622709265718" duration="5824000" />
+      <workItem from="1623143574677" duration="6788000" />
+      <workItem from="1623228441994" duration="81000" />
+      <workItem from="1623295736518" duration="323000" />
+      <workItem from="1623325535752" duration="4479000" />
+      <workItem from="1623718099286" duration="7465000" />
+      <workItem from="1623768889698" duration="3250000" />
+      <workItem from="1623772508418" duration="212000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/qfedu/fmmall/config/MyPayConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-querybyid/src/main/java/com/qfedu/order/controller/OrderQueryByIdController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/order-timeout-cancle/src/main/java/com/qfedu/order/service/ReveiveMsgFromMQService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="map" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

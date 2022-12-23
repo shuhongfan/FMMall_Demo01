@@ -1,0 +1,30 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: http://47.96.11.185:9200
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/fmmall2?characterEncoding=utf-8
+      username: root
+      password: admin123
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    port: 7001
+    host: 47.96.11.185
+    database: 0
+    password: qfedu123
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.qfedu.fmmall.entity
+
+logging:
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: error
+
+redisson:
+  addr:
+    singleAddr:
+      host: redis://47.96.11.185:7001
+      password: qfedu123
+      database: 0

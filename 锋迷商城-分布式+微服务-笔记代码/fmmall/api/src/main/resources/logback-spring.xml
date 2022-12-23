@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <springProfile name="dev">
+                <pattern>%d{yyyy-MM-dd-HH:mm:ss E} %level [%thread]-%class[%line]: %msg%n</pattern>
+            </springProfile>
+            <springProfile name="!dev">
+                <pattern>%d{yyyy-MM-dd-HH:mm:ss E} %level [%thread]-%class[%line]: %msg%n</pattern>
+            </springProfile>
+            <!--日志的编码格式-->
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <appender name="timeFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--TimeBasedRollingPolicy  基于时间的滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>log/log-%d{yyyy-MM-dd-HH}.log</fileNamePattern>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd-HH:mm:ss.SSS} %level [%thread]-%class:%line>>%msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="stdout"/>
+        <appender-ref ref="timeFile"/>
+    </root>
+
+</configuration>

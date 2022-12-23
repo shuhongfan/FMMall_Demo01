@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="api-user-login" />
+        <module name="stock-query" />
+        <module name="order-add" />
+        <module name="shopcart-del" />
+        <module name="api-user-regist" />
+        <module name="beans" />
+        <module name="stock-update" />
+        <module name="order-timeout-cancle" />
+        <module name="user-check" />
+        <module name="api-order-submit" />
+        <module name="order-close" />
+        <module name="order-status-update" />
+        <module name="orderitem-query" />
+        <module name="user-save" />
+        <module name="zipkin-server" />
+        <module name="product-sku-query" />
+        <module name="eureka-server" />
+        <module name="mapper" />
+        <module name="orderitem-add" />
+        <module name="order-querybyid" />
+        <module name="config-server" />
+        <module name="common" />
+        <module name="service" />
+        <module name="order-timeout-query" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order-submit" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="api-order-submit" options="-parameters" />
+      <module name="api-user-login" options="-parameters" />
+      <module name="api-user-regist" options="-parameters" />
+      <module name="beans" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="mapper" options="-parameters" />
+      <module name="order-add" options="-parameters" />
+      <module name="order-close" options="-parameters" />
+      <module name="order-querybyid" options="-parameters" />
+      <module name="order-status-update" options="-parameters" />
+      <module name="order-submit" options="-parameters" />
+      <module name="order-timeout-cancle" options="-parameters" />
+      <module name="order-timeout-query" options="-parameters" />
+      <module name="orderitem-add" options="-parameters" />
+      <module name="orderitem-query" options="-parameters" />
+      <module name="product-sku-query" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="shopcart-del" options="-parameters" />
+      <module name="stock-query" options="-parameters" />
+      <module name="stock-update" options="-parameters" />
+      <module name="user-check" options="-parameters" />
+      <module name="user-save" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
+    </option>
+  </component>
+</project>

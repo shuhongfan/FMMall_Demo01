@@ -1,0 +1,2410 @@
+{
+  "modules": [
+    {
+      "name": "fmmall",
+      "chnname": "锋迷商城",
+      "entities": [
+        {
+          "title": "users",
+          "fields": [
+            {
+              "name": "user_id",
+              "type": "LongKey",
+              "remark": "用户id",
+              "chnname": "主键id",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "username",
+              "type": "DefaultString",
+              "remark": "用户名",
+              "chnname": "用户名",
+              "pk": false,
+              "notNull": true
+            },
+            {
+              "name": "password",
+              "type": "LongKey",
+              "remark": "密码",
+              "chnname": "密码",
+              "notNull": true
+            },
+            {
+              "name": "nickname",
+              "type": "DefaultString",
+              "remark": "昵称",
+              "chnname": "昵称"
+            },
+            {
+              "name": "realname",
+              "type": "Name",
+              "remark": "真实姓名",
+              "chnname": "真实姓名"
+            },
+            {
+              "name": "user_img",
+              "type": "MiddleString",
+              "remark": "头像",
+              "chnname": "头像",
+              "notNull": true
+            },
+            {
+              "name": "user_mobile",
+              "type": "DefaultString",
+              "remark": "手机号",
+              "chnname": "手机号"
+            },
+            {
+              "name": "user_email",
+              "type": "DefaultString",
+              "remark": "邮箱地址",
+              "chnname": "邮箱地址"
+            },
+            {
+              "name": "user_sex",
+              "type": "Char",
+              "remark": "M(男) or F(女)",
+              "chnname": "性别"
+            },
+            {
+              "name": "user_birth",
+              "type": "Date",
+              "remark": "生日",
+              "chnname": "生日"
+            },
+            {
+              "name": "user_regtime",
+              "type": "DateTime",
+              "remark": "创建时间",
+              "chnname": "注册时间",
+              "notNull": true
+            },
+            {
+              "name": "user_modtime",
+              "type": "DateTime",
+              "remark": "更新时间",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [
+            {
+              "name": "username",
+              "isUnique": true,
+              "fields": [
+                "username"
+              ]
+            }
+          ],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "用户",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "user_addr",
+          "fields": [
+            {
+              "name": "addr_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "地址主键id",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "user_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "用户ID",
+              "notNull": true
+            },
+            {
+              "name": "receiver_name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "收件人姓名",
+              "notNull": true
+            },
+            {
+              "name": "receiver_mobile",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "收件人手机号",
+              "notNull": true
+            },
+            {
+              "name": "province",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "省份",
+              "notNull": true
+            },
+            {
+              "name": "city",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "城市",
+              "notNull": true
+            },
+            {
+              "name": "area",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "区县",
+              "notNull": true
+            },
+            {
+              "name": "addr",
+              "type": "Name",
+              "remark": "",
+              "chnname": "详细地址",
+              "notNull": true
+            },
+            {
+              "name": "post_code",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "邮编"
+            },
+            {
+              "name": "status",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "状态,1正常，0无效"
+            },
+            {
+              "name": "common_addr",
+              "type": "Integer",
+              "remark": "1:是  0:否",
+              "chnname": "是否默认地址 1是"
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "用户地址",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "user_login_history",
+          "chnname": "登录历史表",
+          "fields": [
+            {
+              "name": "ID",
+              "type": "Integer",
+              "chnname": "ID",
+              "remark": "",
+              "pk": true,
+              "notNull": true,
+              "autoIncrement": true,
+              "defaultValue": ""
+            },
+            {
+              "name": "AREA",
+              "type": "DefaultString",
+              "chnname": "地区",
+              "remark": "",
+              "pk": false,
+              "notNull": false,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "COUNTRY",
+              "type": "DefaultString",
+              "chnname": "国家",
+              "remark": "",
+              "pk": false,
+              "notNull": false,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "USER_ID",
+              "type": "DefaultString",
+              "chnname": "用户id",
+              "remark": "",
+              "pk": false,
+              "notNull": false,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "IP",
+              "type": "DefaultString",
+              "chnname": "IP",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "LOGIN_TIME",
+              "type": "DefaultString",
+              "chnname": "时间",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "index_img",
+          "fields": [
+            {
+              "name": "img_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "主键",
+              "relationNoShow": false,
+              "pk": true,
+              "notNull": true,
+              "uiHint": ""
+            },
+            {
+              "name": "img_url",
+              "type": "Name",
+              "remark": "图片地址",
+              "chnname": "图片",
+              "relationNoShow": false,
+              "notNull": true
+            },
+            {
+              "name": "img_bg_color",
+              "type": "DefaultString",
+              "remark": "背景颜色",
+              "chnname": "背景色"
+            },
+            {
+              "name": "prod_id",
+              "type": "LongKey",
+              "remark": "商品id",
+              "chnname": "商品id"
+            },
+            {
+              "name": "category_id",
+              "type": "LongKey",
+              "remark": "商品分类id",
+              "chnname": "商品分类id"
+            },
+            {
+              "name": "index_type",
+              "type": "Integer",
+              "remark": "轮播图类型，用于判断，可以根据商品id或者分类进行页面跳转，1：商品 2：分类",
+              "chnname": "轮播图类型",
+              "notNull": true
+            },
+            {
+              "name": "seq",
+              "type": "Integer",
+              "remark": "轮播图展示顺序，从小到大",
+              "chnname": "轮播图展示顺序",
+              "notNull": true
+            },
+            {
+              "name": "status",
+              "type": "Integer",
+              "remark": "是否展示，1：展示    0：不展示",
+              "chnname": "是否展示:1表示正常显示，0表示下线",
+              "notNull": true
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "创建时间",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "更新",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "轮播图",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "category",
+          "fields": [
+            {
+              "name": "category_id",
+              "type": "Integer",
+              "remark": "分类id主键",
+              "chnname": "主键",
+              "pk": true,
+              "notNull": true,
+              "autoIncrement": true,
+              "relationNoShow": false,
+              "uiHint": ""
+            },
+            {
+              "name": "category_name",
+              "type": "DefaultString",
+              "remark": "分类名称",
+              "chnname": "分类名称",
+              "pk": false,
+              "notNull": true
+            },
+            {
+              "name": "category_level",
+              "type": "Integer",
+              "remark": "分类得类型，\n1:一级大分类\n2:二级分类\n3:三级小分类",
+              "chnname": "分类层级",
+              "notNull": true
+            },
+            {
+              "name": "parent_id",
+              "type": "Integer",
+              "remark": "父id 上一级依赖的id，1级分类则为0，二级三级分别依赖上一级",
+              "chnname": "父层级id",
+              "notNull": true
+            },
+            {
+              "name": "category_icon",
+              "type": "LongKey",
+              "remark": "logo",
+              "chnname": "图标",
+              "notNull": false
+            },
+            {
+              "name": "category_slogan",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "口号",
+              "notNull": false
+            },
+            {
+              "name": "category_pic",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "分类图",
+              "notNull": false
+            },
+            {
+              "name": "category_bg_color",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "背景颜色"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品分类",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "product",
+          "fields": [
+            {
+              "name": "product_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品主键id",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "product_name",
+              "type": "IdOrKey",
+              "remark": "商品名称",
+              "chnname": "商品名称",
+              "notNull": true
+            },
+            {
+              "name": "category_id",
+              "type": "Integer",
+              "remark": "分类id",
+              "chnname": "分类外键id",
+              "notNull": true
+            },
+            {
+              "name": "root_category_id",
+              "type": "Integer",
+              "remark": "一级分类id，用于优化查询",
+              "chnname": "一级分类外键id",
+              "notNull": true
+            },
+            {
+              "name": "sold_num",
+              "type": "Integer",
+              "remark": "累计销售",
+              "chnname": "销量",
+              "notNull": true
+            },
+            {
+              "name": "product_status",
+              "type": "Integer",
+              "remark": "默认是1，表示正常状态, -1表示删除, 0下架",
+              "chnname": "默认是1，表示正常状态, -1表示删除, 0下架",
+              "notNull": true
+            },
+            {
+              "name": "content",
+              "type": "LongText",
+              "remark": "商品内容",
+              "chnname": "商品内容",
+              "notNull": true
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品",
+          "remark": "商品信息相关表：分类表，商品图片表，商品规格表，商品参数表",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "product_img",
+          "fields": [
+            {
+              "name": "id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "图片主键",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "item_id",
+              "type": "LongKey",
+              "remark": "商品外键id",
+              "chnname": "商品外键id",
+              "notNull": true
+            },
+            {
+              "name": "url",
+              "type": "Name",
+              "remark": "图片地址",
+              "chnname": "图片地址",
+              "notNull": true
+            },
+            {
+              "name": "sort",
+              "type": "Integer",
+              "remark": "图片顺序，从小到大",
+              "chnname": "顺序",
+              "notNull": true
+            },
+            {
+              "name": "is_main",
+              "type": "Integer",
+              "remark": "是否主图，1：是，0：否",
+              "chnname": "是否主图",
+              "notNull": true
+            },
+            {
+              "name": "created_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "updated_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品图片",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "product_sku",
+          "fields": [
+            {
+              "name": "sku_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "sku编号",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "product_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品id",
+              "notNull": true
+            },
+            {
+              "name": "sku_name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "sku名称",
+              "notNull": true
+            },
+            {
+              "name": "sku_img",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "sku图片"
+            },
+            {
+              "name": "untitled",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "属性组合（格式是p1:v1;p2:v2）"
+            },
+            {
+              "name": "original_price",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "原价",
+              "notNull": true
+            },
+            {
+              "name": "sell_price",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "销售价格",
+              "notNull": true
+            },
+            {
+              "name": "discounts",
+              "type": "Ratio",
+              "remark": "",
+              "chnname": "折扣力度",
+              "notNull": true
+            },
+            {
+              "name": "stock",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "库存",
+              "notNull": true
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            },
+            {
+              "name": "status",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "sku状态(1启用，0禁用，-1删除)"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品规格",
+          "remark": "每一件商品都有不同的规格，不同的规格又有不同的价格和优惠力度，规格表为此设计",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "product_params",
+          "fields": [
+            {
+              "name": "param_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品参数id",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "product_id",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "商品id",
+              "notNull": true
+            },
+            {
+              "name": "product_place",
+              "type": "DefaultString",
+              "remark": "产地，例：中国江苏",
+              "chnname": "产地",
+              "notNull": true
+            },
+            {
+              "name": "foot_period",
+              "type": "DefaultString",
+              "remark": "保质期，例：180天",
+              "chnname": "保质期",
+              "notNull": true
+            },
+            {
+              "name": "brand",
+              "type": "DefaultString",
+              "remark": "品牌名，例：三只大灰狼",
+              "chnname": "品牌名",
+              "notNull": true
+            },
+            {
+              "name": "factory_name",
+              "type": "DefaultString",
+              "remark": "生产厂名，例：大灰狼工厂",
+              "chnname": "生产厂名",
+              "notNull": true
+            },
+            {
+              "name": "factory_address",
+              "type": "DefaultString",
+              "remark": "生产厂址，例：大灰狼生产基地",
+              "chnname": "生产厂址",
+              "notNull": true
+            },
+            {
+              "name": "packaging_method",
+              "type": "DefaultString",
+              "remark": "包装方式，例：袋装",
+              "chnname": "包装方式",
+              "notNull": true
+            },
+            {
+              "name": "weight",
+              "type": "DefaultString",
+              "remark": "规格重量，例：35g",
+              "chnname": "规格重量",
+              "notNull": true
+            },
+            {
+              "name": "storage_method",
+              "type": "DefaultString",
+              "remark": "存储方法，例：常温5~25°",
+              "chnname": "存储方法",
+              "notNull": true
+            },
+            {
+              "name": "eat_method",
+              "type": "DefaultString",
+              "remark": "食用方式，例：开袋即食",
+              "chnname": "食用方式",
+              "notNull": true
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品参数",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "shopping_cart",
+          "chnname": "购物车",
+          "fields": [
+            {
+              "name": "cart_id",
+              "type": "Integer",
+              "chnname": "主键",
+              "remark": "",
+              "pk": true,
+              "notNull": true,
+              "autoIncrement": true,
+              "defaultValue": ""
+            },
+            {
+              "name": "product_id",
+              "type": "DefaultString",
+              "chnname": "商品ID",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "sku_id",
+              "type": "DefaultString",
+              "chnname": "skuID",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "user_id",
+              "type": "DefaultString",
+              "chnname": "用户ID",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "cart_num",
+              "type": "DefaultString",
+              "chnname": "购物车商品数量",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "cart_time",
+              "type": "DefaultString",
+              "chnname": "添加购物车时间",
+              "remark": "",
+              "pk": false,
+              "notNull": true,
+              "autoIncrement": false,
+              "defaultValue": ""
+            },
+            {
+              "name": "product_price",
+              "type": "Money",
+              "remark": "",
+              "chnname": "添加购物车时商品价格"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "orders",
+          "fields": [
+            {
+              "name": "order_id",
+              "type": "LongKey",
+              "remark": "同时也是订单编号",
+              "chnname": "订单ID",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "user_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "用户ID",
+              "notNull": true
+            },
+            {
+              "name": "untitled",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "产品名称（多个产品用,隔开）"
+            },
+            {
+              "name": "receiver_name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "收货人快照",
+              "notNull": true
+            },
+            {
+              "name": "receiver_mobile",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "收货人手机号快照",
+              "notNull": true
+            },
+            {
+              "name": "receiver_address",
+              "type": "Name",
+              "remark": "",
+              "chnname": "收货地址快照",
+              "notNull": true
+            },
+            {
+              "name": "total_amount",
+              "type": "Money",
+              "remark": "",
+              "chnname": "订单总价格"
+            },
+            {
+              "name": "actual_amount",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "实际支付总价格",
+              "notNull": true
+            },
+            {
+              "name": "pay_type",
+              "type": "Integer",
+              "remark": "1:微信 2:支付宝",
+              "chnname": "支付方式",
+              "notNull": true
+            },
+            {
+              "name": "order_remark",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "订单备注"
+            },
+            {
+              "name": "status",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "订单状态 1:待付款 2:待发货 3:待收货 4:待评价 5:已完成 6:已关闭"
+            },
+            {
+              "name": "delivery_type",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "配送方式"
+            },
+            {
+              "name": "delivery_flow_id",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "物流单号"
+            },
+            {
+              "name": "order_freight",
+              "type": "Money",
+              "remark": "默认可以为零，代表包邮",
+              "chnname": "订单运费",
+              "notNull": true,
+              "defaultValue": "0"
+            },
+            {
+              "name": "delete_status",
+              "type": "Integer",
+              "remark": "1: 删除 0:未删除",
+              "chnname": "逻辑删除状态",
+              "defaultValue": "0",
+              "notNull": true
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间（成交时间）",
+              "notNull": true
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间",
+              "notNull": true
+            },
+            {
+              "name": "pay_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "付款时间"
+            },
+            {
+              "name": "delivery_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "发货时间"
+            },
+            {
+              "name": "flish_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "完成时间"
+            },
+            {
+              "name": "cancel_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "取消时间"
+            },
+            {
+              "name": "close_type",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "订单关闭类型1-超时未支付 2-退款关闭 4-买家取消 15-已通过货到付款交易"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "订单",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "order_item",
+          "fields": [
+            {
+              "name": "item_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "订单项ID",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "order_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "订单ID",
+              "notNull": true
+            },
+            {
+              "name": "product_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品ID",
+              "notNull": true
+            },
+            {
+              "name": "product_name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "商品名称",
+              "notNull": true
+            },
+            {
+              "name": "product_img",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "商品图片"
+            },
+            {
+              "name": "sku_id",
+              "type": "Name",
+              "remark": "",
+              "chnname": "skuID",
+              "notNull": true
+            },
+            {
+              "name": "sku_name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "sku名称",
+              "notNull": true
+            },
+            {
+              "name": "product_price",
+              "type": "Money",
+              "remark": "",
+              "chnname": "商品价格",
+              "notNull": true
+            },
+            {
+              "name": "buy_counts",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "购买数量",
+              "notNull": true
+            },
+            {
+              "name": "total_amount",
+              "type": "Money",
+              "remark": "",
+              "chnname": "商品总金额"
+            },
+            {
+              "name": "basket_date",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "加入购物车时间"
+            },
+            {
+              "name": "buy_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "购买时间"
+            },
+            {
+              "name": "is_comment",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "评论状态： 0 未评价  1 已评价"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "订单项/快照",
+          "nameTemplate": "{code} - {name}"
+        },
+        {
+          "title": "product_comments",
+          "fields": [
+            {
+              "name": "comm_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "ID",
+              "pk": true,
+              "notNull": true
+            },
+            {
+              "name": "product_id",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品id",
+              "notNull": true
+            },
+            {
+              "name": "product_name",
+              "type": "LongKey",
+              "remark": "",
+              "chnname": "商品名称"
+            },
+            {
+              "name": "order_item_id",
+              "type": "LongKey",
+              "remark": "可为空",
+              "chnname": "订单项(商品快照)ID"
+            },
+            {
+              "name": "user_id",
+              "type": "LongKey",
+              "remark": "用户名须脱敏",
+              "chnname": "评论用户id"
+            },
+            {
+              "name": "is_anonymous",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "是否匿名（1:是，0:否）"
+            },
+            {
+              "name": "comm_type",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "评价类型（1好评，0中评，-1差评）"
+            },
+            {
+              "name": "comm_level",
+              "type": "Integer",
+              "remark": "1：好评 2：中评 3：差评",
+              "chnname": "评价等级",
+              "notNull": true
+            },
+            {
+              "name": "comm_content",
+              "type": "ShortString",
+              "remark": "",
+              "chnname": "评价内容",
+              "notNull": true
+            },
+            {
+              "name": "comm_imgs",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "评价晒图(JSON {img1:url1,img2:url2}  )"
+            },
+            {
+              "name": "sepc_name",
+              "type": "DateTime",
+              "remark": "可为空",
+              "chnname": "评价时间"
+            },
+            {
+              "name": "reply_status",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "是否回复（0:未回复，1:已回复）"
+            },
+            {
+              "name": "reply_content",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "回复内容"
+            },
+            {
+              "name": "reply_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "回复时间"
+            },
+            {
+              "name": "is_show",
+              "type": "Integer",
+              "remark": "",
+              "chnname": "是否显示（1:是，0:否）"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "商品评价",
+          "nameTemplate": "{code} - {name}"
+        }
+      ],
+      "graphCanvas": {
+        "nodes": [
+          {
+            "shape": "table",
+            "title": "users",
+            "moduleName": false,
+            "x": -430,
+            "y": 490,
+            "id": "8ec02730"
+          },
+          {
+            "shape": "table",
+            "title": "user_login_history",
+            "moduleName": false,
+            "x": -440,
+            "y": 730,
+            "id": "7dbe9350"
+          },
+          {
+            "shape": "table",
+            "title": "user_addr",
+            "moduleName": false,
+            "x": -90,
+            "y": 500,
+            "id": "8130b12e"
+          },
+          {
+            "shape": "table",
+            "title": "index_img",
+            "moduleName": false,
+            "x": -360,
+            "y": 1010,
+            "id": "1998c551"
+          },
+          {
+            "shape": "table",
+            "title": "category",
+            "moduleName": false,
+            "x": 60,
+            "y": 990,
+            "id": "218ba1c0"
+          },
+          {
+            "shape": "table",
+            "title": "product",
+            "moduleName": false,
+            "x": -385.7043761548649,
+            "y": 1342.1542177880476,
+            "id": "b748d30a"
+          },
+          {
+            "shape": "table",
+            "title": "product_sku",
+            "moduleName": false,
+            "x": -420,
+            "y": 1620,
+            "id": "d5739e12"
+          },
+          {
+            "shape": "table",
+            "title": "product_img",
+            "moduleName": false,
+            "x": 70,
+            "y": 1320,
+            "id": "97eef8cd"
+          }
+        ],
+        "edges": [
+          {
+            "shape": "erdRelation",
+            "relation": "0,n:1",
+            "source": "97eef8cd",
+            "target": "b748d30a",
+            "id": "85aa4dc8",
+            "controlPoints": [
+              {
+                "x": -66.0400390625,
+                "y": 1292.3382352941176
+              },
+              {
+                "x": -155.32254021736492,
+                "y": 1274.332789216619
+              }
+            ],
+            "sourceAnchor": 2,
+            "targetAnchor": 1
+          }
+        ]
+      },
+      "associations": [
+        {
+          "relation": "0,n:1",
+          "from": {
+            "entity": "product_img",
+            "field": "item_id"
+          },
+          "to": {
+            "entity": "product",
+            "field": "product_id"
+          }
+        }
+      ]
+    }
+  ],
+  "dataTypeDomains": {
+    "datatype": [
+      {
+        "name": "默认字串",
+        "code": "DefaultString",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(32)"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(32)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(32)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(32)"
+          }
+        }
+      },
+      {
+        "name": "标识号",
+        "code": "IdOrKey",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "ORACLE": {
+            "type": "VARCHAR2(32)"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(32)"
+          },
+          "SQLServer": {
+            "type": "VARCHAR(32)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(32)"
+          }
+        }
+      },
+      {
+        "name": "标识号-长",
+        "code": "LongKey",
+        "apply": {
+          "MYSQL": {
+            "type": "VARCHAR(64)"
+          },
+          "ORACLE": {
+            "type": "VARCHAR2(64)"
+          },
+          "JAVA": {
+            "type": "String"
+          },
+          "SQLServer": {
+            "type": "VARCHAR(64)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(64)"
+          }
+        }
+      },
+      {
+        "name": "名称",
+        "code": "Name",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(128)"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(128)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(128)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(128)"
+          }
+        }
+      },
+      {
+        "name": "备注说明",
+        "code": "Intro",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(512)"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(512)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(512)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(512)"
+          }
+        }
+      },
+      {
+        "name": "字串-短",
+        "code": "ShortString",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(128)"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(128)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(128)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(128)"
+          }
+        }
+      },
+      {
+        "name": "字串-中",
+        "code": "MiddleString",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(1024)"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(1024)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(1024)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(1024)"
+          }
+        }
+      },
+      {
+        "name": "字串-长",
+        "code": "LongString",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "ORACLE": {
+            "type": "NVARCHAR2(3072)"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(3072)"
+          },
+          "SQLServer": {
+            "type": "NVARCHAR(3072)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(3072)"
+          }
+        }
+      },
+      {
+        "name": "大文本",
+        "code": "LongText",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "TEXT"
+          },
+          "ORACLE": {
+            "type": "CLOB"
+          },
+          "SQLServer": {
+            "type": "NTEXT"
+          },
+          "PostgreSQL": {
+            "type": "TEXT"
+          }
+        }
+      },
+      {
+        "name": "小数",
+        "code": "Double",
+        "apply": {
+          "JAVA": {
+            "type": "Double"
+          },
+          "MYSQL": {
+            "type": "DECIMAL(32,10)"
+          },
+          "ORACLE": {
+            "type": "NUMBER(32,10)"
+          },
+          "SQLServer": {
+            "type": "DECIMAL(32,10)"
+          },
+          "PostgreSQL": {
+            "type": "DECIMAL(32,10)"
+          }
+        }
+      },
+      {
+        "name": "比例",
+        "code": "Ratio",
+        "apply": {
+          "MYSQL": {
+            "type": "DECIMAL(4,2)"
+          },
+          "JAVA": {
+            "type": "Double"
+          },
+          "ORACLE": {
+            "type": "NUMBER(4,2)"
+          },
+          "SQLServer": {
+            "type": "DECIMAL(4,2)"
+          },
+          "PostgreSQL": {
+            "type": "DECIMAL(4,2)"
+          }
+        }
+      },
+      {
+        "name": "整数",
+        "code": "Integer",
+        "apply": {
+          "JAVA": {
+            "type": "Integer"
+          },
+          "MYSQL": {
+            "type": "INT"
+          },
+          "ORACLE": {
+            "type": "INT"
+          },
+          "SQLServer": {
+            "type": "INT"
+          },
+          "PostgreSQL": {
+            "type": "INT"
+          }
+        }
+      },
+      {
+        "name": "大整数",
+        "code": "BigInt",
+        "apply": {
+          "MYSQL": {
+            "type": "BIGINT"
+          },
+          "JAVA": {
+            "type": "Long"
+          },
+          "ORACLE": {
+            "type": "NUMBER"
+          },
+          "SQLServer": {
+            "type": "BIGINT"
+          },
+          "PostgreSQL": {
+            "type": "BIGINT"
+          }
+        }
+      },
+      {
+        "name": "金额",
+        "code": "Money",
+        "apply": {
+          "JAVA": {
+            "type": "Double"
+          },
+          "MYSQL": {
+            "type": "DECIMAL(32,8)"
+          },
+          "ORACLE": {
+            "type": "NUMBER(32,8)"
+          },
+          "SQLServer": {
+            "type": "DECIMAL(32,8)"
+          },
+          "PostgreSQL": {
+            "type": "DECIMAL(32,8)"
+          }
+        }
+      },
+      {
+        "name": "是否",
+        "code": "YesNo",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(1)"
+          },
+          "ORACLE": {
+            "type": "VARCHAR2(1)"
+          },
+          "SQLServer": {
+            "type": "VARCHAR(1)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(1)"
+          }
+        }
+      },
+      {
+        "name": "数据字典",
+        "code": "Dict",
+        "apply": {
+          "JAVA": {
+            "type": "String"
+          },
+          "MYSQL": {
+            "type": "VARCHAR(32)"
+          },
+          "ORACLE": {
+            "type": "VARCHAR2(32)"
+          },
+          "SQLServer": {
+            "type": "VARCHAR(32)"
+          },
+          "PostgreSQL": {
+            "type": "VARCHAR(32)"
+          }
+        }
+      },
+      {
+        "name": "日期",
+        "code": "Date",
+        "apply": {
+          "JAVA": {
+            "type": "Date"
+          },
+          "MYSQL": {
+            "type": "DATE"
+          },
+          "ORACLE": {
+            "type": "DATE"
+          },
+          "SQLServer": {
+            "type": "DATE"
+          },
+          "PostgreSQL": {
+            "type": "DATE"
+          }
+        }
+      },
+      {
+        "name": "日期时间",
+        "code": "DateTime",
+        "apply": {
+          "JAVA": {
+            "type": "Date"
+          },
+          "MYSQL": {
+            "type": "DATETIME"
+          },
+          "ORACLE": {
+            "type": "DATE"
+          },
+          "SQLServer": {
+            "type": "DATE"
+          },
+          "PostgreSQL": {
+            "type": "DATE"
+          }
+        }
+      },
+      {
+        "name": "单字符",
+        "code": "Char",
+        "apply": {
+          "MYSQL": {
+            "type": "CHAR(1)"
+          },
+          "ORACLE": {
+            "type": "CHAR(1)"
+          },
+          "JAVA": {
+            "type": "String"
+          },
+          "SQLServer": {
+            "type": "CHAR(1)"
+          },
+          "PostgreSQL": {
+            "type": "CHAR(1)"
+          }
+        }
+      },
+      {
+        "name": "折扣力度",
+        "code": "折扣力度",
+        "apply": {
+          "MYSQL": {
+            "type": "DECIMAL(3,2)"
+          },
+          "JAVA": {
+            "type": "Double"
+          },
+          "ORACLE": {
+            "type": "NUMBER(3,2)"
+          },
+          "SQLServer": {
+            "type": "DECIMAL(3,2)"
+          },
+          "PostgreSQL": {
+            "type": "DECIMAL(3,2)"
+          }
+        }
+      }
+    ],
+    "database": [
+      {
+        "code": "MYSQL",
+        "template": "DROP TABLE {{=it.entity.title}};\n$blankline\nCREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.pk ? 'NOT NULL' : '' }} COMMENT '{{=it.func.join(field.chnname,field.remark,';')}}' {{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n) COMMENT = '{{=it.func.join(it.entity.chnname,it.entity.remark,';') }}'",
+        "fileShow": true,
+        "defaultDatabase": true,
+        "createTableTemplate": "CREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.notNull ? 'NOT NULL' : '' }} {{= field.autoIncrement ? 'AUTO_INCREMENT' : '' }} {{= field.defaultValue ? it.func.join('DEFAULT',field.defaultValue,' ') : '' }} COMMENT '{{=it.func.join(field.chnname,field.remark,' ')}}' {{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n) COMMENT = '{{=it.func.join(it.entity.chnname,it.entity.remark,' ') }}';{{=it.separator}}\n$blankline\n",
+        "deleteTableTemplate": "DROP TABLE {{=it.entity.title}};{{=it.separator}}/*SkipError*/",
+        "rebuildTableTemplate": "create table PDMAN_UP_{{=it.oldEntity.title}}\nas select * from {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\ndrop table {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\nCREATE TABLE {{=it.newEntity.title}}(\n{{ pkList = [] ; }}\n{{~it.newEntity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.notNull ? 'NOT NULL' : '' }} COMMENT '{{=it.func.join(field.chnname,field.remark,';')}}' {{= index < it.newEntity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n) COMMENT = '{{=it.func.join(it.newEntity.chnname,it.newEntity.remark,';') }}';{{=it.separator}}\n$blankline\n\n{{ sameCols = it.func.intersect(it.newEntity.fields,it.oldEntity.fields) ;}}\ninsert into {{=it.newEntity.title}}(\n{{~sameCols:field:index}}\n    {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}\n) \nselect \n{{~sameCols:field:index}}\n    {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}\nfrom PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\ndrop table PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n{{~it.newEntity.indexs:index}}\nALTER TABLE {{=it.newEntity.title}} ADD {{? index.isUnique}}UNIQUE{{??}}INDEX{{?}} {{=index.name}}({{=it.func.join(...index.fields,',')}});{{=it.separator}}\n{{~}}",
+        "createFieldTemplate": "ALTER TABLE {{=it.entity.title}} ADD COLUMN {{=it.field.name}} {{=it.field.type}} {{? it.field.notNull}}NOT NULL{{?}} {{? it.field.defaultValue}}DEFAULT {{? null==it.field.defaultValue}}NULL{{??}}'{{=it.field.defaultValue}}'{{?}}{{?}} {{? it.field.autoIncrement}}AUTO_INCREMENT{{?}} {{? it.field.pk}}PRIMARY KEY{{?}} {{? it.field.chnname}}COMMENT '{{=it.field.chnname}}'{{?}} {{? it.field.addAfter}}AFTER {{=it.field.addAfter}}{{?}};{{=it.separator}}",
+        "updateFieldTemplate": "ALTER TABLE {{=it.entity.title}} MODIFY COLUMN {{=it.field.name}} {{=it.field.type}} {{? it.field.notNull}}NOT NULL{{?}} {{? it.field.defaultValue}}DEFAULT {{? null==it.field.defaultValue}}NULL{{??}}'{{=it.field.defaultValue}}'{{?}}{{?}} {{? it.field.autoIncrement}}AUTO_INCREMENT{{?}} {{? it.field.chnname}}COMMENT '{{=it.field.chnname}}'{{?}};{{=it.separator}}",
+        "deleteFieldTemplate": "ALTER TABLE {{=it.entity.title}} DROP {{=it.field.name}};{{=it.separator}}",
+        "deleteIndexTemplate": "ALTER TABLE {{=it.entity.title}} DROP INDEX {{=it.index.name}};{{=it.separator}}",
+        "createIndexTemplate": "ALTER TABLE {{=it.entity.title}} ADD {{? it.index.isUnique}}UNIQUE{{??}}INDEX{{?}} {{=it.index.name}}({{=it.func.join(...it.index.fields,',')}});{{=it.separator}}",
+        "updateTableComment": "ALTER TABLE {{=it.entity.title}} COMMENT '{{=it.entity.chnname}}';{{=it.separator}}"
+      },
+      {
+        "code": "ORACLE",
+        "template": "DROP TABLE {{=it.entity.title}};{{=it.separator}}\n$blankline\nCREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}}  {{= field.pk ? 'NOT NULL' : '' }} {{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n);{{=it.separator}}\n$blankline\nCOMMENT ON TABLE {{=it.entity.title}} IS '{{=it.func.join(it.entity.chnname,it.entity.remark,';') }}';{{=it.separator}}\n{{~it.entity.fields:field:index}}\nCOMMENT ON COLUMN {{=it.entity.title}}.{{=field.name}} IS '{{=it.func.join(field.chnname,field.remark,';')}}';{{=it.separator}}\n{{~}}",
+        "createTableTemplate": "CREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}}{{? field.defaultValue}} DEFAULT {{=field.defaultValue}}{{?}}{{= field.notNull ? ' NOT NULL' : '' }}{{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n);{{=it.separator}}\n$blankline\n{{? it.entity.chnname || it.entity.remark}}COMMENT ON TABLE {{=it.entity.title}} IS {{? it.entity.remark}}'{{=it.entity.remark}}'{{??}}'{{=it.entity.chnname}}'{{?}};{{=it.separator}}{{?}}\n{{~it.entity.fields:field:index}}\n{{? field.chnname || field.remark}}COMMENT ON COLUMN {{=it.entity.title}}.{{=field.name}} IS {{? field.remark}}'{{=field.remark}}'{{??}}'{{=field.chnname}}'{{?}};{{=it.separator}}{{?}}\n{{~}}",
+        "deleteTableTemplate": "DROP TABLE {{=it.entity.title}};{{=it.separator}}/*SkipError*/\r\n$blankline",
+        "rebuildTableTemplate": "CREATE TABLE PDMAN_UP_{{=it.oldEntity.title}}\nAS SELECT * FROM {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\nDROP TABLE {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\nCREATE TABLE {{=it.newEntity.title}}(\n{{ pkList = [] ; }}{{~it.newEntity.fields:field:index}}{{? field.pk }}{{ pkList.push(field.name) }}{{?}}    {{=field.name}} {{=field.type}}{{? field.defaultValue}} DEFAULT {{=field.defaultValue}}{{?}}{{= field.notNull ? ' NOT NULL' : '' }}{{= index < it.newEntity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}{{? pkList.length >0 }}    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}}){{?}}\n);{{=it.separator}}\n$blankline\n{{? it.newEntity.chnname || it.newEntity.remark}}COMMENT ON TABLE {{=it.newEntity.title}} IS {{? it.newEntity.remark}}'{{=it.entity.remark}}'{{??}}'{{=it.newEntity.chnname}}'{{?}};{{?}}{{=it.separator}}\n{{~it.newEntity.fields:field:index}}\n{{? field.chnname || field.remark}}COMMENT ON COLUMN {{=it.newEntity.title}}.{{=field.name}} IS {{? field.remark}}'{{=field.remark}}'{{??}}'{{=field.chnname}}'{{?}};{{?}}{{=it.separator}}\n{{~}}\n{{ sameCols = it.func.intersect(it.newEntity.fields,it.oldEntity.fields) ;}}\n$blankline\nINSERT INTO {{=it.newEntity.title}}(\n{{~sameCols:field:index}}   {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}) \nSELECT\n{{~sameCols:field:index}}   {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}FROM PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}\n\nDROP TABLE PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}\n{{~it.newEntity.indexs:index}}\nCREATE{{? index.isUnique}} UNIQUE{{?}} INDEX {{=index.name}} ON {{=it.newEntity.title}}({{=it.func.join(index.fields,',')}});{{=it.separator}}\n{{~}}",
+        "createFieldTemplate": "ALTER TABLE {{=it.entity.title}} ADD({{=it.field.name}} {{=it.field.type}}{{? it.field.defaultValue}} DEFAULT {{=it.field.defaultValue}}{{?}}{{? it.field.notNull}} NOT NULL{{?}});{{=it.separator}}\r\n{{? it.field.chnname || it.field.remark}}COMMENT ON COLUMN {{=it.entity.title}}.{{=it.field.name}} IS {{? it.field.remark}}'{{=it.field.remark}}'{{??}}'{{=it.field.chnname}}'{{?}};{{=it.separator}}{{?}}\r\n$blankline",
+        "updateFieldTemplate": "ALTER TABLE {{=it.entity.title}} MODIFY({{=it.field.name}} {{=it.field.type}}{{? it.field.defaultValue}} DEFAULT {{=it.field.defaultValue}}{{?}}{{? it.field.notNull}} NOT NULL{{?}});{{=it.separator}}\r\n{{? it.field.chnname || it.field.remark}}COMMENT ON COLUMN {{=it.entity.title}}.{{=it.field.name}} IS {{? it.field.remark}}'{{=it.field.remark}}'{{??}}'{{=it.field.chnname}}'{{?}};{{=it.separator}}{{=it.separator}}{{?}}\r\n$blankline",
+        "deleteFieldTemplate": "ALTER TABLE {{=it.entity.title}} DROP({{=it.field.name}});{{=it.separator}}\r\n$blankline",
+        "deleteIndexTemplate": "DROP INDEX {{=it.entity.title}}.{{=it.index.name}};{{=it.separator}}\r\n$blankline",
+        "createIndexTemplate": "CREATE{{? it.index.isUnique}} UNIQUE{{?}} INDEX {{=it.index.name}} ON {{=it.entity.title}}({{=it.func.join(it.index.fields,',')}});{{=it.separator}}\r\n$blankline",
+        "updateTableComment": "{{? it.entity.chnname || it.entity.remark}}COMMENT ON TABLE {{=it.entity.title}} IS {{? it.entity.remark}}'{{=it.entity.remark}}'{{??}}'{{=it.entity.chnname}}'{{?}};{{=it.separator}}{{?}}\r\n$blankline"
+      },
+      {
+        "code": "SQLServer",
+        "createTableTemplate": "CREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.notNull ? 'NOT NULL' : '' }} {{= field.autoIncrement ? 'IDENTITY(1,1)' : '' }} {{= field.defaultValue ? it.func.join('DEFAULT',field.defaultValue,' ') : '' }}  {{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    CONSTRAINT PK_{{=it.entity.title}} PRIMARY KEY CLUSTERED ({{~pkList:pkName:i}}{{= pkName }} ASC {{= i<pkList.length-1 ? ',' : '' }}{{~}}) ON [PRIMARY] \n{{?}}\n) ;{{=it.separator}}\n\n$blankline\nEXECUTE sp_addextendedproperty N'MS_Description', '{{= it.entity.chnname || it.entity.remark}}', N'user', N'dbo', N'table', N'{{=it.entity.title}}', NULL, NULL;{{=it.separator}}\n{{~it.entity.fields:field:index}}\n{{? field.chnname || field.remark}}EXECUTE sp_addextendedproperty N'MS_Description', {{? field.remark}}'{{=field.remark}}'{{??}}'{{=field.chnname}}'{{?}}, N'user', N'dbo', N'table', N'{{=it.entity.title}}', N'column', N'{{=field.name}}';{{=it.separator}}{{?}}\n{{~}}\n",
+        "deleteTableTemplate": "",
+        "rebuildTableTemplate": "",
+        "createFieldTemplate": "",
+        "updateFieldTemplate": "",
+        "deleteFieldTemplate": "",
+        "deleteIndexTemplate": "",
+        "createIndexTemplate": "",
+        "updateTableComment": ""
+      },
+      {
+        "code": "PostgreSQL",
+        "template": "DROP TABLE {{=it.entity.title}};\n$blankline\nCREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.pk ? 'NOT NULL' : '' }} COMMENT '{{=it.func.join(field.chnname,field.remark,';')}}' {{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n) COMMENT = '{{=it.func.join(it.entity.chnname,it.entity.remark,';') }}'",
+        "createTableTemplate": "CREATE TABLE {{=it.entity.title}}(\n{{ pkList = [] ; }}\n{{~it.entity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}}{{? field.defaultValue}} DEFAULT {{=field.defaultValue}}{{?}}{{= field.notNull ? ' NOT NULL' : '' }}{{= index < it.entity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n);{{=it.separator}}\n$blankline\n{{? it.entity.chnname || it.entity.remark}}COMMENT ON TABLE {{=it.entity.title}} IS {{? it.entity.remark}}'{{=it.entity.remark}}'{{??}}'{{=it.entity.chnname}}'{{?}};{{=it.separator}}{{?}}\n{{~it.entity.fields:field:index}}\n{{? field.chnname || field.remark}}COMMENT ON COLUMN {{=it.entity.title}}.{{=field.name}} IS {{? field.remark}}'{{=field.remark}}'{{??}}'{{=field.chnname}}'{{?}};{{=it.separator}}{{?}}\n{{~}}",
+        "deleteTableTemplate": "DROP TABLE {{=it.entity.title}};{{=it.separator}}/*SkipError*/",
+        "rebuildTableTemplate": "create table PDMAN_UP_{{=it.oldEntity.title}}\nas select * from {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\ndrop table {{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\nCREATE TABLE {{=it.newEntity.title}}(\n{{ pkList = [] ; }}\n{{~it.newEntity.fields:field:index}}\n    {{? field.pk }}{{ pkList.push(field.name) }}{{?}}\n    {{=field.name}} {{=field.type}} {{= field.notNull ? 'NOT NULL' : '' }} COMMENT '{{=it.func.join(field.chnname,field.remark,';')}}' {{= index < it.newEntity.fields.length-1 ? ',' : ( pkList.length>0 ? ',' :'' ) }}\n{{~}}\n{{? pkList.length >0 }}\n    PRIMARY KEY ({{~pkList:pkName:i}}{{= pkName }}{{= i<pkList.length-1 ? ',' : '' }}{{~}})\n{{?}}\n) COMMENT = '{{=it.func.join(it.newEntity.chnname,it.newEntity.remark,';') }}';{{=it.separator}}\n$blankline\n\n{{ sameCols = it.func.intersect(it.newEntity.fields,it.oldEntity.fields) ;}}\ninsert into {{=it.newEntity.title}}(\n{{~sameCols:field:index}}\n    {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}\n) \nselect \n{{~sameCols:field:index}}\n    {{=field.name}}{{? index<sameCols.length-1}},{{?}}\n{{~}}\nfrom PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}\n$blankline\n\ndrop table PDMAN_UP_{{=it.oldEntity.title}};{{=it.separator}}",
+        "createFieldTemplate": "ALTER TABLE {{=it.entity.title}} ADD COLUMN {{=it.field.name}} {{=it.field.type}} {{? it.field.notNull}}NOT NULL{{?}} {{? it.field.defaultValue}}DEFAULT {{? null==it.field.defaultValue}}NULL{{??}}'{{=it.field.defaultValue}}'{{?}}{{?}} {{? it.field.autoIncrement}}AUTO_INCREMENT{{?}} {{? it.field.pk}}PRIMARY KEY{{?}} {{? it.field.chnname}}COMMENT '{{=it.field.chnname}}'{{?}} {{? it.field.addAfter}}AFTER {{=it.field.addAfter}}{{?}};{{=it.separator}}",
+        "updateFieldTemplate": "ALTER TABLE {{=it.entity.title}} MODIFY COLUMN {{=it.field.name}} {{=it.field.type}} {{? it.field.notNull}}NOT NULL{{?}} {{? it.field.defaultValue}}DEFAULT {{? null==it.field.defaultValue}}NULL{{??}}'{{=it.field.defaultValue}}'{{?}}{{?}} {{? it.field.autoIncrement}}AUTO_INCREMENT{{?}} {{? it.field.chnname}}COMMENT '{{=it.field.chnname}}'{{?}};{{=it.separator}}",
+        "deleteFieldTemplate": "ALTER TABLE {{=it.entity.title}} DROP {{=it.field.name}};{{=it.separator}}",
+        "deleteIndexTemplate": "ALTER TABLE {{=it.entity.title}} DROP INDEX {{=it.index.name}};{{=it.separator}}",
+        "createIndexTemplate": "ALTER TABLE {{=it.entity.title}} ADD {{? it.index.isUnique}}UNIQUE{{??}}INDEX{{?}} {{=it.index.name}}({{=it.func.join(...it.index.fields,',')}});{{=it.separator}}",
+        "updateTableComment": "ALTER TABLE {{=it.entity.title}} COMMENT '{{=it.entity.chnname}}';{{=it.separator}}"
+      },
+      {
+        "code": "JAVA",
+        "template": "package group.rober.pdman.{{=it.module.name}}.entity;\n$blankline\nimport javax.persistence.*;\nimport java.io.Serializable;\nimport java.util.Date;\n$blankline\n$blankline\n\n/** {{=it.entity.chnname}} */\n@Table(name=\"{{=it.entity.title}}\")\npublic class {{=it.func.camel(it.entity.title,true) }} implements Serializable,Cloneable{\n{{~it.entity.fields:field:index}}\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    {{? field.pk }}\n    @Id\n    @GeneratedValue\n    {{?}}\n    private {{=field.type}} {{=it.func.camel(field.name,false)}} ;\n{{~}}\n$blankline\n{{~it.entity.fields:field:index}}\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    public {{=field.type}} get{{=it.func.camel(field.name,true)}}(){\n        return this.{{=it.func.camel(field.name,false)}};\n    }\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    public void set{{=it.func.camel(field.name,true)}}({{=field.type}} {{= it.func.camel(field.name,false) }}){\n        this.{{=it.func.camel(field.name,false)}} = {{= it.func.camel(field.name,false) }};\n    }\n{{~}}\n}",
+        "createTableTemplate": "package group.rober.pdman.{{=it.module.name}}.entity;\n$blankline\nimport javax.persistence.*;\nimport java.io.Serializable;\nimport java.util.Date;\n$blankline\n$blankline\n@Table(name=\"{{=it.entity.title}}\")\npublic class {{=it.func.camel(it.entity.title,true) }} implements Serializable,Cloneable{\n{{~it.entity.fields:field:index}}\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    {{? field.pk }}\n    @Id\n    @GeneratedValue\n    {{?}}\n    private {{=field.type}} {{=it.func.camel(field.name,false)}} ;\n{{~}}\n$blankline\n{{~it.entity.fields:field:index}}\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    public {{=field.type}} get{{=it.func.camel(field.name,true)}}(){\n        return this.{{=it.func.camel(field.name,false)}};\n    }\n    /** {{=it.func.join(field.chnname,field.remark,';')}} */\n    public void set{{=it.func.camel(field.name,true)}}({{=field.type}} {{= it.func.camel(field.name,false) }}){\n        this.{{=it.func.camel(field.name,false)}} = {{= it.func.camel(field.name,false) }};\n    }\n{{~}}\n}",
+        "deleteTableTemplate": "",
+        "rebuildTableTemplate": "",
+        "createFieldTemplate": "",
+        "updateFieldTemplate": "",
+        "deleteFieldTemplate": "",
+        "deleteIndexTemplate": "",
+        "createIndexTemplate": "",
+        "updateTableComment": ""
+      }
+    ]
+  },
+  "profile": {
+    "defaultFields": [
+      {
+        "name": "revision",
+        "type": "Integer",
+        "remark": "",
+        "chnname": "乐观锁"
+      },
+      {
+        "name": "created_by",
+        "type": "IdOrKey",
+        "remark": "",
+        "chnname": "创建人"
+      },
+      {
+        "name": "created_time",
+        "type": "DateTime",
+        "remark": "",
+        "chnname": "创建时间"
+      },
+      {
+        "name": "updated_by",
+        "type": "IdOrKey",
+        "remark": "",
+        "chnname": "更新人"
+      },
+      {
+        "name": "updated_time",
+        "type": "DateTime",
+        "remark": "",
+        "chnname": "更新时间"
+      }
+    ],
+    "defaultFieldsType": "2",
+    "javaConfig": {
+      "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0"
+    },
+    "sqlConfig": ";",
+    "dbs": [
+      {
+        "name": "fmmall2",
+        "defaultDB": true,
+        "properties": {
+          "driver_class_name": "com.mysql.jdbc.Driver",
+          "url": "jdbc:mysql://localhost:3306/fmmall2?characterEncoding=UTF-8&useSSL=false&useUnicode=true&serverTimezone=UTC",
+          "password": "admin123",
+          "username": "root"
+        }
+      }
+    ],
+    "wordTemplateConfig": ""
+  }
+}

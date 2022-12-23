@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62757e8d-6895-46b1-99a8-25359f379e33" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mapper" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="logback-spring" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\apache-maven-3.6.3\localRepo" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1r6inCJtGVmverxf2OIpibz5Ufp" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="D:/ws/mms" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.qfedu.fmmall.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qfedu.fmmall" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java2010\workspace\part4\fmmall\common\src\main\java\com\qfedu\fmmall\utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qfedu.fmmall.entity" />
+      <recent name="com.qfedu.fmmall.dao" />
+      <recent name="com.qfedu.fmmall.service.job" />
+      <recent name="dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="ApiApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplicationTests.testSelectCommonts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectCommonts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplicationTests.testSelectFirstLevelCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="testSelectFirstLevelCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplicationTests.testShopCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qfedu.fmmall" />
+      <option name="MAIN_CLASS_NAME" value="com.qfedu.fmmall.ApiApplicationTests" />
+      <option name="METHOD_NAME" value="testShopCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qfedu.fmmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qfedu.fmmall.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ApiApplicationTests.test" />
+        <item itemvalue="JUnit.ApiApplicationTests.testShopCart" />
+        <item itemvalue="JUnit.ApiApplicationTests.testSelectCommonts" />
+        <item itemvalue="JUnit.ApiApplicationTests.testSelectFirstLevelCategory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.1693989" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62757e8d-6895-46b1-99a8-25359f379e33" name="Default Changelist" comment="" />
+      <created>1618303104362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618303104362</updated>
+      <workItem from="1618303108760" duration="2904000" />
+      <workItem from="1618326178021" duration="1807000" />
+      <workItem from="1618363321589" duration="11134000" />
+      <workItem from="1618448963678" duration="15454000" />
+      <workItem from="1618535285847" duration="11226000" />
+      <workItem from="1618798558793" duration="7191000" />
+      <workItem from="1619109678837" duration="755000" />
+      <workItem from="1619140287828" duration="14402000" />
+      <workItem from="1619286575531" duration="646000" />
+      <workItem from="1619312775715" duration="12056000" />
+      <workItem from="1619399284111" duration="8274000" />
+      <workItem from="1619449862149" duration="712000" />
+      <workItem from="1619485822026" duration="6951000" />
+      <workItem from="1619573421760" duration="10834000" />
+      <workItem from="1619657908251" duration="8659000" />
+      <workItem from="1619717966397" duration="1402000" />
+      <workItem from="1619722012059" duration="3000" />
+      <workItem from="1619744645727" duration="12125000" />
+      <workItem from="1620263303499" duration="18819000" />
+      <workItem from="1620349724010" duration="13548000" />
+      <workItem from="1620435262884" duration="13568000" />
+      <workItem from="1620462867441" duration="2492000" />
+      <workItem from="1620577444047" duration="1226000" />
+      <workItem from="1620608680752" duration="13194000" />
+      <workItem from="1620695817384" duration="1532000" />
+      <workItem from="1620698892933" duration="8011000" />
+      <workItem from="1620781727415" duration="2237000" />
+      <workItem from="1620898816396" duration="1134000" />
+      <workItem from="1620954700250" duration="7433000" />
+      <workItem from="1621180109767" duration="523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/qfedu/fmmall/config/MyPayConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="map" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

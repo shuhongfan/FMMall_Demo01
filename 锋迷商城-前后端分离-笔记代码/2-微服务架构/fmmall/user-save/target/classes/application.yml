@@ -1,0 +1,18 @@
+
+server:
+  port: 9002
+spring:
+  application:
+    name: user-save
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: admin123
+    url: jdbc:mysql://localhost:3306/fmmall2?characterEncoding=utf-8
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zhangsan:123456@localhost:8761/eureka
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.qfedu.fmmall.entity

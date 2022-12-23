@@ -1,0 +1,14 @@
+com\qfedu\fmmall\dao\UserAddrMapper.class
+com\qfedu\fmmall\dao\CategoryMapper.class
+com\qfedu\fmmall\dao\IndexImgMapper.class
+com\qfedu\fmmall\dao\ProductImgMapper.class
+com\qfedu\fmmall\dao\ShoppingCartMapper.class
+com\qfedu\fmmall\dao\UserLoginHistoryMapper.class
+com\qfedu\fmmall\dao\ProductParamsMapper.class
+com\qfedu\fmmall\dao\OrdersMapper.class
+com\qfedu\fmmall\dao\ProductCommentsMapper.class
+com\qfedu\fmmall\dao\ProductSkuMapper.class
+com\qfedu\fmmall\general\GeneralDAO.class
+com\qfedu\fmmall\dao\UsersMapper.class
+com\qfedu\fmmall\dao\OrderItemMapper.class
+com\qfedu\fmmall\dao\ProductMapper.class

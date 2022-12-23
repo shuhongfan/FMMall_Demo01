@@ -1,0 +1,35 @@
+2021-05-24-18:00:16.477 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:00:18.660 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:00:48.677 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:00:50.785 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:01:20.876 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:01:23.035 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:01:53.077 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:02:03.091 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-18:02:33.177 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:02:43.191 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-18:03:13.277 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:03:23.291 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-18:03:53.376 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:04:03.379 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-18:04:33.483 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:04:35.637 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:05:05.677 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:05:07.814 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:05:37.876 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:05:41.986 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:06:12.075 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:06:14.729 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:06:44.776 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:06:46.909 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:07:16.979 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-18:07:19.153 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-18:07:42.007 INFO [SpringContextShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-05-24-18:07:42.518 INFO [SpringContextShutdownHook]-org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218>>Shutting down ExecutorService 'taskScheduler'
+2021-05-24-18:07:42.518 INFO [SpringContextShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:845>>Shutting down Quartz Scheduler
+2021-05-24-18:07:42.518 INFO [SpringContextShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-05-24-18:07:42.518 INFO [SpringContextShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-05-24-18:07:42.519 INFO [SpringContextShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-05-24-18:07:42.520 INFO [SpringContextShutdownHook]-org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:218>>Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-24-18:07:42.528 INFO [SpringContextShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2029>>{dataSource-1} closing ...
+2021-05-24-18:07:42.531 INFO [SpringContextShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2101>>{dataSource-1} closed

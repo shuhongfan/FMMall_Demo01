@@ -1,0 +1,12 @@
+server:
+  port: 9068
+spring:
+  application:
+    name: order-close
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zhangsan:123456@localhost:8761/eureka
+feign:
+  hystrix:
+    enabled: true

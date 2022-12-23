@@ -1,0 +1,220 @@
+2021-05-24-16:00:12.776 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:00:16.416 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:00:46.480 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:00:48.690 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:01:18.780 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:01:26.891 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection timed out: no further information: /47.96.11.185:6379
+2021-05-24-16:01:56.977 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:01:59.108 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:02:29.176 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:02:31.318 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:03:01.376 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:03:03.513 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:03:33.577 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:03:35.711 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:04:05.777 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:04:07.994 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:04:38.077 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:04:40.213 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:05:10.276 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:05:12.438 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:05:42.476 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:05:44.625 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:06:14.678 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:06:16.810 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:06:46.883 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:06:49.024 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:07:19.077 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:07:21.228 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:07:51.284 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:07:53.428 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:08:23.476 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:08:25.623 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:08:55.682 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:08:57.810 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:09:27.884 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:09:30.037 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:10:00.076 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:10:02.209 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:10:32.281 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:10:34.416 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:11:04.483 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:11:06.634 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:11:36.677 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:11:38.824 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:12:08.877 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:12:11.037 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:12:41.077 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:12:43.210 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:13:13.277 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:13:15.421 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:13:45.476 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:13:47.593 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:14:17.676 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:14:19.812 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:14:49.879 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:14:52.004 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:15:22.082 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:15:24.218 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:15:54.276 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:15:56.411 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:16:26.476 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:16:28.621 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:16:58.677 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:17:00.835 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:17:30.876 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:17:40.505 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:18:10.579 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:18:12.757 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:18:42.782 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:18:45.341 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:19:15.381 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:19:17.629 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:19:47.684 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:19:49.828 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:20:19.883 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:20:22.108 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:20:52.175 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:20:54.503 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:21:24.577 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:21:26.694 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:21:56.777 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:21:58.915 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:22:28.976 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:22:31.117 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:23:01.180 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:23:03.411 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:23:33.477 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:23:35.619 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:24:05.685 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:24:07.821 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:24:37.877 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:24:40.011 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:25:10.077 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:25:12.260 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:25:42.277 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:25:44.424 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:26:14.477 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:26:20.107 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:26:50.177 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:26:52.301 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:27:22.376 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:27:24.506 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:27:54.576 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:27:56.717 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:28:26.780 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:28:28.902 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:28:58.976 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:29:01.107 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:29:31.183 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:29:33.313 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:30:03.377 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:30:05.511 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:30:35.577 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:30:37.723 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:31:07.782 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:31:09.945 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:31:39.977 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:31:42.106 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:32:12.175 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:32:15.802 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:32:45.878 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:32:48.549 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:33:18.585 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:33:20.736 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:33:50.778 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:33:53.107 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:34:23.177 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:34:25.591 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:34:55.676 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:34:57.832 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:35:27.876 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:35:30.019 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:36:00.076 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:36:02.191 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:36:32.277 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:36:34.425 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:37:04.476 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:37:06.625 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:37:36.676 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:37:38.953 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:38:08.977 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:38:11.222 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:38:41.277 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:38:43.617 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:39:13.679 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:39:15.842 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:39:45.876 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:39:48.007 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:40:18.085 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:40:28.086 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-16:40:58.176 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:41:00.334 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:41:30.384 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:41:32.518 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:42:02.583 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:42:04.729 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:42:34.777 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:42:37.181 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:43:07.280 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:43:09.422 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:43:39.476 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:43:41.933 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:44:11.977 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:44:15.590 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:44:45.677 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:44:47.814 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:45:17.875 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:45:26.001 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection timed out: no further information: /47.96.11.185:6379
+2021-05-24-16:45:56.076 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:45:58.208 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:46:28.277 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:46:30.585 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:47:00.682 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:47:02.816 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:47:32.876 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:47:35.013 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:48:05.076 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:48:07.205 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:48:37.277 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:48:39.397 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:49:09.480 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:49:11.642 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:49:41.677 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:49:43.808 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:50:13.879 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:50:16.023 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:50:46.075 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:50:48.215 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:51:18.281 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:51:20.418 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:51:50.481 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:51:52.620 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:52:22.676 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:52:24.823 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:52:54.877 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:52:57.011 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:53:27.082 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:53:29.754 WARN [lettuce-nioEventLoop-7-2]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:53:59.777 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:54:02.501 WARN [lettuce-nioEventLoop-7-3]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:54:32.576 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:54:34.715 WARN [lettuce-nioEventLoop-7-4]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:55:04.778 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:55:06.910 WARN [lettuce-nioEventLoop-7-5]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:55:36.977 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:55:39.119 WARN [lettuce-nioEventLoop-7-6]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:56:09.179 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:56:11.911 WARN [lettuce-nioEventLoop-7-7]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:56:41.980 INFO [lettuce-eventExecutorLoop-1-11]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:56:51.982 WARN [lettuce-nioEventLoop-7-8]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-16:57:22.079 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:57:32.090 WARN [lettuce-nioEventLoop-7-9]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-16:58:02.177 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:58:12.190 WARN [lettuce-nioEventLoop-7-10]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: connection timed out: /47.96.11.185:6379
+2021-05-24-16:58:42.277 INFO [lettuce-eventExecutorLoop-1-5]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:58:46.374 WARN [lettuce-nioEventLoop-7-11]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:59:16.376 INFO [lettuce-eventExecutorLoop-1-7]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:59:18.511 WARN [lettuce-nioEventLoop-7-12]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
+2021-05-24-16:59:48.581 INFO [lettuce-eventExecutorLoop-1-9]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was 47.96.11.185:6379
+2021-05-24-16:59:50.720 WARN [lettuce-nioEventLoop-7-1]-io.netty.util.internal.logging.AbstractInternalLogger:151>>Cannot reconnect to [47.96.11.185:6379]: Connection refused: no further information: /47.96.11.185:6379
